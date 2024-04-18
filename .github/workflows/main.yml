@@ -1,6 +1,6 @@
 name: GameCI Template 🎮
 
-on: push
+on: [push, pull_request]
 
 env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
@@ -8,6 +8,7 @@ env:
   UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
 
 jobs:
+
   
   buildWebGL:
     name: Build for WebGL 🖥️
