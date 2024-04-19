@@ -1,4 +1,4 @@
-name: GameCI Template 🎮
+name: Build Main and Publish to itch.io 🎮
 
 on: [push, pull_request]
 
