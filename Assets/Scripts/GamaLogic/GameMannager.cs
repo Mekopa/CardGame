@@ -18,23 +18,3 @@ public class GameMannager : MonoBehaviour
     }
 }
 
-
-
-
-
-
-
-public class CardMannager : MonoBehaviour
-{
-    public List<Card> ListCard;
-
-    //public Card GetCard(CardData data)
-    //{
-        //return cards
-    //}
-}
-
-public class CardGenerator : MonoBehaviour
-{
-
-}
