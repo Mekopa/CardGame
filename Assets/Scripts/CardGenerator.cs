@@ -22,6 +22,7 @@ public class CardGenerator : MonoBehaviour
             card.CardData = new CardData(value);
             card.CardDisplay.front = Sprites[i];
             card.CardDisplay.UpdateCardDisplay();
+            card.name = $"Card {value:00}";
         }
     
     }
