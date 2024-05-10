@@ -7,6 +7,7 @@ public class GameMannager : MonoBehaviour
 {
 
     public PlayerManager PlayerManager;
+    public FaceDownCardManager FaceDownCardManager;
     public CardManager CardManager;
 
     // Start is called before the first frame update
@@ -14,6 +15,7 @@ public class GameMannager : MonoBehaviour
     {
         CardManager.Shuffle();
         PlayerManager.GiveCards(7);
+        FaceDownCardManager.GetClosedCards();
     }
 
     // Update is called once per frame

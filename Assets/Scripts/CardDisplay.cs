@@ -13,4 +13,8 @@ public class CardDisplay : MonoBehaviour
     {
         mySpriteRenderer.sprite = front;
     }
+    public void ChangeToBack()
+    {
+        mySpriteRenderer.sprite = back;
+    }
 }
