@@ -1,4 +1,4 @@
-# CardGame
+# CardGame | Pardon
 KTU project  
 
 # Game Logic
