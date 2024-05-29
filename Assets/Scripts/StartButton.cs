@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
+// class for the starting button
 public class StartButton : MonoBehaviour
 {
     public TMP_InputField usernameInputField;
