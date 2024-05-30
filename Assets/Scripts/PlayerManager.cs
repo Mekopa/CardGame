@@ -47,7 +47,7 @@ public class PlayerManager : MonoBehaviour
             MyPlayer currentTurn = this.players[this.playerindex];
             currentTurn.InitTurn();
 
-            // if the card played is not a 10
+            // if the card played is not a 10 or 8
             if (!currentTurn.InitTurn())
             {
                 // changes the turn

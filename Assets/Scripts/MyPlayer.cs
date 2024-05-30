@@ -18,7 +18,7 @@ public class MyPlayer : MonoBehaviour
         card.transform.parent = transform;
     }
 
-    // return false if the player plays a 10
+    // return false if the player plays a 10 or 8 (not changing the turn)
     public bool InitTurn()
     {
         return true;
