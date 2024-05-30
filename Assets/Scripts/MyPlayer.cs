@@ -21,6 +21,7 @@ public class MyPlayer : MonoBehaviour
     // return false if the player plays a 10 or 8 (not changing the turn)
     public bool InitTurn()
     {
+        
         return true;
         // TODO implement playing a card logic
     }    

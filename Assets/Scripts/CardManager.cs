@@ -8,6 +8,11 @@ public class CardManager : MonoBehaviour
 
     public Stack<Card> Pool;
 
+    void Start()
+    {
+    
+    }
+
     public Card GetCard(CardData data)
     {
         return ListCard.Find( x => x.CardData == data);
