@@ -1,29 +1,51 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class Dragger : MonoBehaviour
+public class Dragger : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    private Vector3 _dragOffset;
-    private Camera _cam;
+    private RectTransform rectTransform;
+    private CanvasGroup canvasGroup;
+    private Vector2 originalPosition;
+
+    [SerializeField] private Canvas canvas;
 
     private void Awake()
     {
-        _cam = Camera.main;
+        rectTransform = GetComponent<RectTransform>();
+        canvasGroup = GetComponent<CanvasGroup>();
     }
 
-    void OnMouseDown()
+    public void OnBeginDrag(PointerEventData eventData)
     {
-        _dragOffset = transform.position - GetMausePos();
+        originalPosition = rectTransform.anchoredPosition;
+        canvasGroup.alpha = 0.6f;
+        canvasGroup.blocksRaycasts = false;
     }
 
-    private void OnMouseDrag()
+    public void OnDrag(PointerEventData eventData)
     {
-        transform.position = GetMausePos() + _dragOffset;
+        rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
     }
 
-    Vector3 GetMausePos() {
-        var mousePos = _cam.ScreenToWorldPoint(Input.mousePosition);
-        return mousePos;
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        canvasGroup.alpha = 1f;
+        canvasGroup.blocksRaycasts = true;
+
+        // Check if the card is over the play area
+        if (RectTransformUtility.RectangleContainsScreenPoint(
+            PlayArea.Instance.playAreaRectTransform,
+            Input.mousePosition,
+            Camera.main))
+        {
+            PlayArea.Instance.AddCardToPlayArea(GetComponent<Card>());
+        }
+        else
+        {
+            // Return to original position if not dropped in play area
+            rectTransform.anchoredPosition = originalPosition;
+        }
     }
 }
+
+
