@@ -17,6 +17,7 @@ public class FaceDownCardManager : MonoBehaviour
             for (int i = 0; i < 3; i++)
             {
                 FaceDownCards.TakeCard(CardManager.Pool.Pop());
+                
             }
         }
     }
