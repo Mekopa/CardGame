@@ -18,7 +18,7 @@ public class MyFaceDownCards : MonoBehaviour
     {
         for (int i = 0; i < myCards.Count; i++)
         {
-            Vector3 cardPosition = new Vector3(i * cardSpacing, 0, 0);
+            Vector3 cardPosition = new Vector3(i * cardSpacing, 0, 1);
             myCards[i].transform.localPosition = cardPosition;
             Debug.Log($"FaceDown Card {myCards[i].name} positioned at {cardPosition} locally within {name}");
         }
