@@ -11,6 +11,7 @@ public class Dragger : MonoBehaviour
     private CanvasGroup canvasGroup;
     private RectTransform rectTransform;
     public LayerMask playAreaLayerMask;
+    public LayerMask faceUpAreaLayerMask;
 
     private void Awake()
     {
@@ -23,6 +24,7 @@ public class Dragger : MonoBehaviour
     {
         _dragOffset = transform.position - GetMausePos();
         isDragging = true;
+
     }
 
     private void OnMouseDrag()
@@ -32,6 +34,7 @@ public class Dragger : MonoBehaviour
     private void OnMouseUp()
     {
         isDragging = false;
+       CheckFaceUpArea();
         CheckPlayArea();
 
         // Check if the card is over the play area
@@ -45,8 +48,34 @@ public class Dragger : MonoBehaviour
         return mousePos;
     }
 
-    
 
+    void CheckFaceUpArea()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(GetMausePos(), Vector2.zero, Mathf.Infinity, faceUpAreaLayerMask);
+
+        if (hit.collider != null)
+        {
+            Debug.Log("Raycast hit something: " + hit.collider.gameObject.name);
+            MyFaceUpCards faceUpArea = hit.collider.GetComponent<MyFaceUpCards>();
+            Card card = GetComponent<Card>();
+            Debug.Log("Play are name: " + faceUpArea);
+            Debug.Log("Card name: " + card);
+            if (faceUpArea != null && card != null)
+            {
+                Debug.Log("Raycast hit player area");
+                faceUpArea.TakeCard(card);
+            }
+            else
+            {
+                Debug.Log("Raycast did not hit a player area or card is null");
+            }
+        }
+        else
+        {
+            Debug.Log("Raycast did not hit anything");
+        }
+
+    }
     void CheckPlayArea()
     {
         RaycastHit2D hit = Physics2D.Raycast(GetMausePos(), Vector2.zero, Mathf.Infinity, playAreaLayerMask);
