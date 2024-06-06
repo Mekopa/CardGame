@@ -10,8 +10,8 @@ public class CardPositionMannager : MonoBehaviour
     public GameObject openCard2;
 
     // Define the positions where you want the objects to be placed
-    private Vector3 player1Position = new Vector3((float)-4.5, 5, 0);
-    private Vector3 player2Position = new Vector3((float)-4.5, -5, 0);
+    private Vector3 player1Position = new Vector3((float)-4.5, (float)3.8, 0);
+    private Vector3 player2Position = new Vector3((float)-4.5, (float)-3.8, 0);
     private Vector3 closeCard1Position = new Vector3(-2, (float)1.2, 0);
     private Vector3 closeCard2Position = new Vector3(-2, (float)-1.2, 0);
     private Vector3 openCard1Position = new Vector3(-2, (float)1.2, 0);

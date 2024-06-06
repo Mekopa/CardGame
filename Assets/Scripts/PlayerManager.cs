@@ -10,7 +10,7 @@ public class PlayerManager : MonoBehaviour
     {
         foreach (var player in players)
         {
-            if (player.myCards.Count < 4)
+            if (player.myCards.Count < 4 && CardManager.Pool.Count != 0) 
                 player.TakeCard(CardManager.Pool.Pop());
         }
     }
