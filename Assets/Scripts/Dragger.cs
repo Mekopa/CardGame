@@ -119,6 +119,11 @@ public class Dragger : MonoBehaviour
             {
                 Debug.Log("Raycast did not hit a player area or card is null");
             }
+            if(card.name == "Card 13")
+            {
+                
+                playArea.RemoveAll(card);
+            }
         }
         else
         {

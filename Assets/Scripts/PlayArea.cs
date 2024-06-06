@@ -35,6 +35,15 @@ public class PlayArea : MonoBehaviour
             Debug.Log("Draggable object exited the play area.");
         }
     }
+    public void RemoveAll(Card card)
+    {
+        foreach(Card cardy in cards)
+        {
+
+            Object.Destroy(cardy.gameObject);
+        }
+        cards.Clear();
+    }
     public void AddCard(Card card)
     {
        
