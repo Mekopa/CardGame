@@ -7,7 +7,7 @@ public class Dragger : MonoBehaviour
 {
     private Vector3 _dragOffset;
     private Camera _cam;
-    private bool isDragging = false;
+    public bool isDragging = false;
     private CanvasGroup canvasGroup;
     private RectTransform rectTransform;
     public LayerMask playAreaLayerMask;
@@ -26,18 +26,18 @@ public class Dragger : MonoBehaviour
         canvasGroup = GetComponent<CanvasGroup>();
     }
 
-    void OnMouseDown()
+    public void OnMouseDown()
     {
         _dragOffset = transform.position - GetMausePos();
         isDragging = true;
 
     }
 
-    private void OnMouseDrag()
+    public void OnMouseDrag()
     {
         transform.position = GetMausePos() + _dragOffset;
     }
-    private void OnMouseUp()
+    public void OnMouseUp()
     {
         isDragging = false;
        CheckFaceUpArea();

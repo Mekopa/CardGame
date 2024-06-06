@@ -1,0 +1,1359 @@
+fileFormatVersion: 2
+guid: 2d939abe3ac535e4a852c2c449a78bbc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 920
+        width: 133
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a173ddafb64bb4cb58a06e7930b1d4
+      internalID: -761623666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_1"
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 920
+        width: 136
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65294842921956341802cb68b58c303d
+      internalID: 2128149977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_2"
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 920
+        width: 137
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4aa856b6bc9264ca5921227205e573
+      internalID: 1595745536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_3"
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 920
+        width: 136
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2271f795e985607499dfec53132c72d9
+      internalID: 719870040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_4"
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 920
+        width: 135
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129d7a5ef81af7f47b5c72a0ea908537
+      internalID: -1252224505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_5"
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 920
+        width: 135
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51e5bc467f05684d8ef45f10fc07394
+      internalID: 2075364166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_6"
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 920
+        width: 135
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16b8a65008ee4249a7aa6b81964372e
+      internalID: 676819671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_7"
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 920
+        width: 136
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dee93065cc266f4c9097787ab895eb6
+      internalID: 2026838365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_8"
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 920
+        width: 134
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cde9b98b0f80874788f447b1b39290f
+      internalID: 1257718684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_9"
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 920
+        width: 134
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f194111e835ef33438e90ef1d7e36891
+      internalID: -1835807167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_10"
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 920
+        width: 135
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95cf8b2a08aee684c9ac0c800da1e7ec
+      internalID: -936133527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_11"
+      rect:
+        serializedVersion: 2
+        x: 2579
+        y: 920
+        width: 136
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35038e32d7e78343b7893e6304d5188
+      internalID: 962380239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_12"
+      rect:
+        serializedVersion: 2
+        x: 2813
+        y: 920
+        width: 138
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203196a8bb3e5224b9b30744f9f91ace
+      internalID: 2067565345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_13"
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 920
+        width: 136
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28a68b9131c6f04eb4b7e855c3c848d
+      internalID: -137545980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_14"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 616
+        width: 133
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce352f14a5644b499a9b7e0132658e2
+      internalID: 1492051881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_15"
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 616
+        width: 136
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b88694058b2cb4ba6cc20d7dcf6d3b
+      internalID: 1966105552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_16"
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 616
+        width: 137
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228c818701b9d054eb3d7f3247ead6fb
+      internalID: 429114904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_17"
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 616
+        width: 136
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2c6aed28f5b454fbe2c9e003d3724d
+      internalID: 1431300210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_18"
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 616
+        width: 135
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c437c4f00898fd4697fa2fbf236261f
+      internalID: -1678921318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_19"
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 616
+        width: 135
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e5d7f349ddac4479ffb02df80b0c65
+      internalID: -37896979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_20"
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 616
+        width: 135
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffb6a256cb85664b8e5876f20dab884
+      internalID: 248424944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_21"
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 616
+        width: 136
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b40ca8a56ab5a745a3d541cb202791c
+      internalID: -1727196955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_22"
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 616
+        width: 134
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a96958df54a7514d9a24505ef68eb0a
+      internalID: -622822926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_23"
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 624
+        width: 134
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b094ee78798be274fb35e6d59e70d08c
+      internalID: -1920228558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_24"
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 624
+        width: 135
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f358bdcd071b964ea25c0e30985a749
+      internalID: -431867920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_25"
+      rect:
+        serializedVersion: 2
+        x: 2579
+        y: 624
+        width: 136
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667dc32e16838b74cbfa7c53e20b9fc7
+      internalID: -1977226851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_26"
+      rect:
+        serializedVersion: 2
+        x: 2813
+        y: 624
+        width: 138
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887c44593f005484ba2d0af1585402d4
+      internalID: -1774365087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_27"
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 623
+        width: 136
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba9c5c3514a2a242ab890c3d6ef31d7
+      internalID: 943935993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_28"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 309
+        width: 133
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344b5474e9b84f14ea8f94aa66d00ff0
+      internalID: 971568489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_29"
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 309
+        width: 136
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1120208e0a7250144bf28947a0ef1699
+      internalID: 1859649923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_30"
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 309
+        width: 137
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c6ed9bda3537c489bfbca9245ad36a
+      internalID: 1687688250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_31"
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 309
+        width: 136
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae282c0fc1a52c4094f300ea3ab17c6
+      internalID: 1933081606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_32"
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 309
+        width: 135
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a435424e79e1bd4b8434fad6e18e616
+      internalID: 1089821604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_33"
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 309
+        width: 135
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f50653513308c54aa808deda94972fa
+      internalID: -1547853660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_34"
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 309
+        width: 136
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af9902feb1561849ab0b5b3771b7686
+      internalID: 1594060985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_35"
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 309
+        width: 136
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a61a7c9f4b11249b635d44b405b1da
+      internalID: -1505278815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_36"
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 309
+        width: 134
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88e26ab6da8e3949ac5b2a498ff5be5
+      internalID: 949560347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_37"
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 317
+        width: 134
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5cc35f3ede1104ca0893a1fae79e92
+      internalID: 829664317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_38"
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 317
+        width: 135
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8820eb96d4d7b354c9bce19b04d85f77
+      internalID: -2080317031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_39"
+      rect:
+        serializedVersion: 2
+        x: 2579
+        y: 317
+        width: 136
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d44ee685467cc047904d48d7f812d6c
+      internalID: 1424887246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_40"
+      rect:
+        serializedVersion: 2
+        x: 2813
+        y: 317
+        width: 138
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d19176f4559a754ca8f341e3385c998
+      internalID: 1593434341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_41"
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 315
+        width: 136
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83a4740c912bf34da8595e7cb2641f8
+      internalID: -591949488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_42"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 133
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8760f0a2ceaed4a946765356f30f4d
+      internalID: 46804385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_43"
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 136
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d6e76dedbe16d478f0d17e2d009334
+      internalID: 443160277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_44"
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 0
+        width: 137
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c511ce9084fe55d4496c45d25d44b9d3
+      internalID: 1298789333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_45"
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 0
+        width: 136
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4108d60ce1d159429d5a30db76aaa8a
+      internalID: 1571937030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_46"
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 0
+        width: 135
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4f5eba155d9734db01ae91382c07d3
+      internalID: 529279133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_47"
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 0
+        width: 135
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fb5b9d81f71d5448add47a2e26f298
+      internalID: 1861199915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_48"
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 0
+        width: 135
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547929bb844d2ad4690d24b08f35f89e
+      internalID: -1726511041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_49"
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 0
+        width: 136
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc58aa8629b240546ad8c2281298ec95
+      internalID: 1461149598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_50"
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 0
+        width: 134
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e160ea16d036394092e96b055c5f7dc
+      internalID: 477638902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_51"
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 0
+        width: 134
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b2fb1969188b3429a71260b0a59afe
+      internalID: 15161184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_52"
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 0
+        width: 135
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43e55884329ae344959882ec4f7a2a9
+      internalID: 1744269283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_53"
+      rect:
+        serializedVersion: 2
+        x: 2579
+        y: 0
+        width: 136
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f504569f3ef1e34fb8d8a27b269f334
+      internalID: -2068245858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_54"
+      rect:
+        serializedVersion: 2
+        x: 2813
+        y: 0
+        width: 138
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7772dbfa74c9c6b4ca076b2409ff663d
+      internalID: 1274996896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ads\u0131z tasar\u0131m (11)_55"
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 0
+        width: 136
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4725b7d692d14bb44a34ea624b00737a
+      internalID: 1710628317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "Ads\u0131z tasar\u0131m (11)_0": -761623666
+      "Ads\u0131z tasar\u0131m (11)_1": 2128149977
+      "Ads\u0131z tasar\u0131m (11)_10": -936133527
+      "Ads\u0131z tasar\u0131m (11)_11": 962380239
+      "Ads\u0131z tasar\u0131m (11)_12": 2067565345
+      "Ads\u0131z tasar\u0131m (11)_13": -137545980
+      "Ads\u0131z tasar\u0131m (11)_14": 1492051881
+      "Ads\u0131z tasar\u0131m (11)_15": 1966105552
+      "Ads\u0131z tasar\u0131m (11)_16": 429114904
+      "Ads\u0131z tasar\u0131m (11)_17": 1431300210
+      "Ads\u0131z tasar\u0131m (11)_18": -1678921318
+      "Ads\u0131z tasar\u0131m (11)_19": -37896979
+      "Ads\u0131z tasar\u0131m (11)_2": 1595745536
+      "Ads\u0131z tasar\u0131m (11)_20": 248424944
+      "Ads\u0131z tasar\u0131m (11)_21": -1727196955
+      "Ads\u0131z tasar\u0131m (11)_22": -622822926
+      "Ads\u0131z tasar\u0131m (11)_23": -1920228558
+      "Ads\u0131z tasar\u0131m (11)_24": -431867920
+      "Ads\u0131z tasar\u0131m (11)_25": -1977226851
+      "Ads\u0131z tasar\u0131m (11)_26": -1774365087
+      "Ads\u0131z tasar\u0131m (11)_27": 943935993
+      "Ads\u0131z tasar\u0131m (11)_28": 971568489
+      "Ads\u0131z tasar\u0131m (11)_29": 1859649923
+      "Ads\u0131z tasar\u0131m (11)_3": 719870040
+      "Ads\u0131z tasar\u0131m (11)_30": 1687688250
+      "Ads\u0131z tasar\u0131m (11)_31": 1933081606
+      "Ads\u0131z tasar\u0131m (11)_32": 1089821604
+      "Ads\u0131z tasar\u0131m (11)_33": -1547853660
+      "Ads\u0131z tasar\u0131m (11)_34": 1594060985
+      "Ads\u0131z tasar\u0131m (11)_35": -1505278815
+      "Ads\u0131z tasar\u0131m (11)_36": 949560347
+      "Ads\u0131z tasar\u0131m (11)_37": 829664317
+      "Ads\u0131z tasar\u0131m (11)_38": -2080317031
+      "Ads\u0131z tasar\u0131m (11)_39": 1424887246
+      "Ads\u0131z tasar\u0131m (11)_4": -1252224505
+      "Ads\u0131z tasar\u0131m (11)_40": 1593434341
+      "Ads\u0131z tasar\u0131m (11)_41": -591949488
+      "Ads\u0131z tasar\u0131m (11)_42": 46804385
+      "Ads\u0131z tasar\u0131m (11)_43": 443160277
+      "Ads\u0131z tasar\u0131m (11)_44": 1298789333
+      "Ads\u0131z tasar\u0131m (11)_45": 1571937030
+      "Ads\u0131z tasar\u0131m (11)_46": 529279133
+      "Ads\u0131z tasar\u0131m (11)_47": 1861199915
+      "Ads\u0131z tasar\u0131m (11)_48": -1726511041
+      "Ads\u0131z tasar\u0131m (11)_49": 1461149598
+      "Ads\u0131z tasar\u0131m (11)_5": 2075364166
+      "Ads\u0131z tasar\u0131m (11)_50": 477638902
+      "Ads\u0131z tasar\u0131m (11)_51": 15161184
+      "Ads\u0131z tasar\u0131m (11)_52": 1744269283
+      "Ads\u0131z tasar\u0131m (11)_53": -2068245858
+      "Ads\u0131z tasar\u0131m (11)_54": 1274996896
+      "Ads\u0131z tasar\u0131m (11)_55": 1710628317
+      "Ads\u0131z tasar\u0131m (11)_6": 676819671
+      "Ads\u0131z tasar\u0131m (11)_7": 2026838365
+      "Ads\u0131z tasar\u0131m (11)_8": 1257718684
+      "Ads\u0131z tasar\u0131m (11)_9": -1835807167
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
