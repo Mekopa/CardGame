@@ -40,6 +40,7 @@ public class PlayArea : MonoBehaviour
        
         cards.Add(card);
         card.transform.SetParent(this.transform);
+        card.CardDisplay.UpdateCardDisplay();
         card.transform.localPosition = Vector3.zero;
         if (cards.Count > 1)
         {
