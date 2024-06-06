@@ -13,6 +13,10 @@ public class MyFaceDownCards : MonoBehaviour
         card.transform.parent = transform;
         PositionCards();
     }
+    public void RemoveCard(Card card)
+    {
+        myCards.Remove(card);
+    }
 
     private void PositionCards()
     {

@@ -21,6 +21,11 @@ public class MyFaceUpCards : MonoBehaviour
             filled = true;
         PositionCards();
     }
+    public void RemoveCard(Card card)
+    {
+        
+        myCards.Remove(card);
+    }
 
     private void PositionCards()
     {

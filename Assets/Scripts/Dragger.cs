@@ -12,6 +12,12 @@ public class Dragger : MonoBehaviour
     private RectTransform rectTransform;
     public LayerMask playAreaLayerMask;
     public LayerMask faceUpAreaLayerMask;
+    public MyFaceUpCards upCards1;
+    public MyFaceUpCards upCards2;
+    public MyFaceDownCards downCards1;
+    public MyFaceDownCards downCards2;
+    public MyPlayer player1;
+    public MyPlayer player2;
 
     private void Awake()
     {
@@ -49,6 +55,7 @@ public class Dragger : MonoBehaviour
     }
 
 
+
     void CheckFaceUpArea()
     {
         RaycastHit2D hit = Physics2D.Raycast(GetMausePos(), Vector2.zero, Mathf.Infinity, faceUpAreaLayerMask);
@@ -58,6 +65,10 @@ public class Dragger : MonoBehaviour
             Debug.Log("Raycast hit something: " + hit.collider.gameObject.name);
             MyFaceUpCards faceUpArea = hit.collider.GetComponent<MyFaceUpCards>();
             Card card = GetComponent<Card>();
+            if (card.GetComponentInParent<MyPlayer>(true) == player1 || card.GetComponentInParent<MyPlayer>(true) == player2)
+            {
+                card.GetComponentInParent<MyPlayer>(true).RemoveCard(card);
+            }
             Debug.Log("Play are name: " + faceUpArea);
             Debug.Log("Card name: " + card);
             if (faceUpArea != null && card != null)
@@ -87,6 +98,18 @@ public class Dragger : MonoBehaviour
             Card card = GetComponent<Card>();
             Debug.Log("Play are name: " + playArea);
             Debug.Log("Card name: " + card);
+            if (card.GetComponentInParent<MyPlayer>(true) != null  )
+            {
+                card.GetComponentInParent<MyPlayer>(true).RemoveCard(card);
+            }
+            else if(card.GetComponentInParent<MyFaceUpCards>(true) != null)
+            {
+                card.GetComponentInParent<MyFaceUpCards>(true).RemoveCard(card);
+            }
+            else if (card.GetComponentInParent<MyFaceDownCards>(true) != null)
+            {
+                card.GetComponentInParent<MyFaceDownCards>(true).RemoveCard(card);
+            }
             if (playArea != null && card != null)
             {
                 Debug.Log("Raycast hit player area");

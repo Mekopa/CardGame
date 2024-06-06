@@ -6,7 +6,14 @@ public class PlayerManager : MonoBehaviour
 {
     public CardManager CardManager;
     public List<MyPlayer> players;
-
+    public void Update()
+    {
+        foreach (var player in players)
+        {
+            if (player.myCards.Count < 4)
+                player.TakeCard(CardManager.Pool.Pop());
+        }
+    }
     public void GiveCards(int amount)
     {
         foreach (var player in players)
@@ -17,4 +24,5 @@ public class PlayerManager : MonoBehaviour
             }
         }
     }
+    
 }

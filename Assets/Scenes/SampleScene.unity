@@ -257,6 +257,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &17399833
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -436,6 +442,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &37430868
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -698,6 +710,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &52248593
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -877,6 +895,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &59009154
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1056,6 +1080,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &70879909
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1235,6 +1265,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &73804625
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1414,6 +1450,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &99379770
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1593,6 +1635,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &137058802
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1772,6 +1820,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &144262872
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1956,6 +2010,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &237538865
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2135,6 +2195,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &264468368
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2314,6 +2380,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &287527088
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2493,6 +2565,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &402788512
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2672,6 +2750,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &423356938
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2851,6 +2935,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &430769611
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3030,6 +3120,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &446406413
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3320,6 +3416,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &520827807
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3499,6 +3601,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &601676397
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3678,6 +3786,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &609524139
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3857,6 +3971,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &615282789
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4036,6 +4156,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &618582518
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4220,6 +4346,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &716971585
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4399,6 +4531,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &755718665
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4578,6 +4716,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &757024601
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4861,6 +5005,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &806087289
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5158,6 +5308,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &993661476
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5337,6 +5493,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &994625724
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5516,6 +5678,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1020848819
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5695,6 +5863,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1074677514
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5874,6 +6048,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1097139320
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6053,6 +6233,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1106474915
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6134,7 +6320,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -43, y: -100}
+  m_AnchoredPosition: {x: -43.00006, y: -100.00003}
   m_SizeDelta: {x: 97.74, y: -457.73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1115174267
@@ -6369,6 +6555,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1234311702
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6548,6 +6740,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1246280599
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6727,6 +6925,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1266545507
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6906,6 +7110,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1294654796
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7085,6 +7295,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1315816103
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7264,6 +7480,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1341188380
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7443,6 +7665,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1351478242
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7535,7 +7763,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.8200073, y: 83.26999}
+  m_AnchoredPosition: {x: 1.8200684, y: 83.26996}
   m_SizeDelta: {x: 116.86, y: -463.73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &1375089908
@@ -7770,6 +7998,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1426061358
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7968,6 +8202,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1504084412
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8147,6 +8387,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1507042247
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8326,6 +8572,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1510380487
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8505,6 +8757,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1512591886
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8741,6 +8999,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1639356424
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8920,6 +9184,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1653186740
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9164,6 +9434,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1738066195
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9343,6 +9619,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1769670926
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9669,6 +9951,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1845592394
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9848,6 +10136,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1849831493
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10027,6 +10321,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1856840315
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10206,6 +10506,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1924336664
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10385,6 +10691,12 @@ MonoBehaviour:
   faceUpAreaLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &2125829176
 BoxCollider2D:
   m_ObjectHideFlags: 0
