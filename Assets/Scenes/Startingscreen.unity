@@ -180,7 +180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -255,7 +255,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1079983581, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -485,7 +485,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 538384289, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -687,7 +687,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 23.2, y: -105.01}
+  m_AnchoredPosition: {x: 23.200012, y: -105.01001}
   m_SizeDelta: {x: -114.69, y: -319.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &653038838
@@ -854,7 +854,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PARDON CARD GAME
+  m_text: PARDON
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -881,7 +881,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32.1
+  m_fontSize: 80.95
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -967,7 +967,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 20.2, y: 42.39}
+  m_AnchoredPosition: {x: 20.200012, y: 42.39}
   m_SizeDelta: {x: -90.44, y: -344.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &958800574
@@ -1190,7 +1190,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
+  m_fontSize: 18
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1294,7 +1294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.18360312, g: 0.4641509, b: 0.16376644, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1653,7 +1653,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.05
+  m_fontSize: 18
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

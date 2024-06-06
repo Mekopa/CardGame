@@ -1,0 +1,1381 @@
+fileFormatVersion: 2
+guid: b60cf07ccfc1c4945a48dbda1cbccfed
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pardon card game (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 601
+        width: 136
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccca2cde1ea5b014c8f42fbf35f6c5f4
+      internalID: 1713756226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 907
+        width: 134
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260d246c70412c745a8058f804bd3f0e
+      internalID: 1160407692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 283
+        width: 136
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e071544fe97dc0f499917c2ebc6d8547
+      internalID: 1865008662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_3
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 283
+        width: 137
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee13d581150217469b68842db0212df
+      internalID: -1468440976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_4
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 907
+        width: 135
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8026e5185d3e85140a6979a00385ad7b
+      internalID: 2071918293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_5
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 601
+        width: 137
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c590d0907e7f6a3438cef39793f2471f
+      internalID: -778416283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_6
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 907
+        width: 137
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d8098f1e11eff4295b098e4e931e6a
+      internalID: 1595386685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_7
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 283
+        width: 138
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e08459e2ebf5344ac7c4803ead6e0f
+      internalID: 145597991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_8
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 601
+        width: 138
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625b9740ea6df56488a156b9ce89ec98
+      internalID: -2001699644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_9
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 601
+        width: 138
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8bb8480e7fbbaf4c83f0daf7d96f583
+      internalID: 401345065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_10
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 907
+        width: 136
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f401d01266809b842b98a2f30ea6e01f
+      internalID: 727969047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_11
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 283
+        width: 138
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bfb4e4d97aa4644a43ccd9e95ce45e
+      internalID: 1614166093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_12
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 907
+        width: 137
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4477c3c2efe1e84f9825ae8483a8818
+      internalID: -1318781087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_13
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 601
+        width: 137
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5476d8fbf2ab33b418b4ad12f98d9d1a
+      internalID: 829996532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_14
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 283
+        width: 137
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4295615216d07cf4bbc4b7ac04b3297b
+      internalID: 1544236994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_15
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 907
+        width: 137
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707b95054e1e0ef45b313941fd7154c8
+      internalID: -134664047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_16
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 601
+        width: 139
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4575a749d2e73f4692d952e6c14228b
+      internalID: -2010830674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_17
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 283
+        width: 139
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d5b3baa67479246a2bd91c628d0a90
+      internalID: 1103511950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_18
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 601
+        width: 137
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fb52c00c1100e4fb6dddc6297095ed
+      internalID: 1262119519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_19
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 283
+        width: 137
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f17d7c0dd6a304eac071e6effa2f3d
+      internalID: -1456224542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_20
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 907
+        width: 137
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c5c25dbbfef8e44acd0ff93c58e65b
+      internalID: -1709335190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_21
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 907
+        width: 137
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd977c717e18e9d4089d3b907803b8c7
+      internalID: 1763805503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_22
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 283
+        width: 139
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5de9080bc2eedc43a337380f60edfae
+      internalID: -127760019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_23
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 601
+        width: 139
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e803bf8e597390b4bbcc00c8a0a8bb6a
+      internalID: -790838970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_24
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 907
+        width: 137
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22820de20a99d244e8009d1e61d114e2
+      internalID: -99330246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_25
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 601
+        width: 137
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1bee7ae17e84f4aa272d67c6e9f266
+      internalID: -342195569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_26
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 283
+        width: 137
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab510775f2f15f45982b7831d50f9a6
+      internalID: -1412827635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_27
+      rect:
+        serializedVersion: 2
+        x: 2137
+        y: 607
+        width: 138
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cb131b1a97c854196895e77299051d
+      internalID: 548285092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_28
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 907
+        width: 139
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089d3f8a2fca61c48bdd3fc0ad83b789
+      internalID: 2084328976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_29
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 281
+        width: 139
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d3bde95c782594facf6d14ec9139d5
+      internalID: 653016174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_30
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 607
+        width: 137
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1930f26b89d3849adbb69302095c3f
+      internalID: 147929538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_31
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 283
+        width: 137
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5f591f21bebb2468e6cb815d9adb0f
+      internalID: 1560373935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_32
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 907
+        width: 137
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f94b1b048c6de4c821951dead73d3b
+      internalID: 1191687724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_33
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 607
+        width: 138
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe5631c30cc329498befd30e0cbf09e
+      internalID: 466084228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_34
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 283
+        width: 138
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab76dae83fcf110429274ca3ad63dc99
+      internalID: -1553676983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_35
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 907
+        width: 137
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b14b261dc51d7e418d5554e002dacf3
+      internalID: -1409276413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_36
+      rect:
+        serializedVersion: 2
+        x: 2850
+        y: 607
+        width: 139
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa42f698cbe0c204cb145b457d86272e
+      internalID: -1120790747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_37
+      rect:
+        serializedVersion: 2
+        x: 2850
+        y: 283
+        width: 139
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1418ec37589dff248bedd1698e3770d8
+      internalID: 1746722360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_38
+      rect:
+        serializedVersion: 2
+        x: 2850
+        y: 907
+        width: 137
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ad9441fa756784c8b7d08a9940131b
+      internalID: -1749244971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_39
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 907
+        width: 137
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428c577f8287ee14d9456faa70a01fea
+      internalID: 1127498906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_40
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 283
+        width: 138
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6e20a10a651394e9e5896e7a6c4455
+      internalID: -270951027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_41
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 607
+        width: 138
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0bb4d6de5fbc845a4d21a1057d3eda
+      internalID: -1336577918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_42
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 907
+        width: 138
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95338d66f33286749bbac553cfb971ad
+      internalID: -256936013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_43
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 137
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b528222ad4f36648a07849ec1dda784
+      internalID: -999582549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_44
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 0
+        width: 139
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30db50ca3fbd3224ab0b51b477fadb70
+      internalID: 1331529361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_45
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 0
+        width: 139
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb765d136b1f1a428827c77da2dd27c
+      internalID: 1547943968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_46
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 0
+        width: 137
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c48327a7b1d2354c881305f112d1575
+      internalID: -733650975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_47
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 0
+        width: 139
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3e8ccf8494eeb41be8d7a5342f4008
+      internalID: -239278886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_48
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 0
+        width: 137
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f27f94487a638446ab53bade1ea0ac9
+      internalID: 1232141584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_49
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 0
+        width: 139
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d51a40155174f408d911ef7849ecef
+      internalID: -1438279552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_50
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 138
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50a7a48b788b2047b23cc5785e45f3c
+      internalID: 428123499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_51
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 0
+        width: 139
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784f0516efe5ce549b48bbfe0eed3321
+      internalID: 1552233624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_52
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 0
+        width: 138
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb3c8086525a4f4bb975aac539d665c
+      internalID: -755668970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_53
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 0
+        width: 138
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f72e9f2b0994642b73f2285c671c9c
+      internalID: 906273461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_54
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 0
+        width: 139
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f88c003bb973fc4689612c0fd1ddabf
+      internalID: 2004414734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_55
+      rect:
+        serializedVersion: 2
+        x: 2853
+        y: 0
+        width: 137
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e72522ffff12a54c9431d91511cfe37
+      internalID: -1397717215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pardon card game (1)_56
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 0
+        width: 144
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acdf10383fbc384ebc1ff42598a0313
+      internalID: -413019293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pardon card game (1)_0: 1713756226
+      pardon card game (1)_1: 1160407692
+      pardon card game (1)_10: 727969047
+      pardon card game (1)_11: 1614166093
+      pardon card game (1)_12: -1318781087
+      pardon card game (1)_13: 829996532
+      pardon card game (1)_14: 1544236994
+      pardon card game (1)_15: -134664047
+      pardon card game (1)_16: -2010830674
+      pardon card game (1)_17: 1103511950
+      pardon card game (1)_18: 1262119519
+      pardon card game (1)_19: -1456224542
+      pardon card game (1)_2: 1865008662
+      pardon card game (1)_20: -1709335190
+      pardon card game (1)_21: 1763805503
+      pardon card game (1)_22: -127760019
+      pardon card game (1)_23: -790838970
+      pardon card game (1)_24: -99330246
+      pardon card game (1)_25: -342195569
+      pardon card game (1)_26: -1412827635
+      pardon card game (1)_27: 548285092
+      pardon card game (1)_28: 2084328976
+      pardon card game (1)_29: 653016174
+      pardon card game (1)_3: -1468440976
+      pardon card game (1)_30: 147929538
+      pardon card game (1)_31: 1560373935
+      pardon card game (1)_32: 1191687724
+      pardon card game (1)_33: 466084228
+      pardon card game (1)_34: -1553676983
+      pardon card game (1)_35: -1409276413
+      pardon card game (1)_36: -1120790747
+      pardon card game (1)_37: 1746722360
+      pardon card game (1)_38: -1749244971
+      pardon card game (1)_39: 1127498906
+      pardon card game (1)_4: 2071918293
+      pardon card game (1)_40: -270951027
+      pardon card game (1)_41: -1336577918
+      pardon card game (1)_42: -256936013
+      pardon card game (1)_43: -999582549
+      pardon card game (1)_44: 1331529361
+      pardon card game (1)_45: 1547943968
+      pardon card game (1)_46: -733650975
+      pardon card game (1)_47: -239278886
+      pardon card game (1)_48: 1232141584
+      pardon card game (1)_49: -1438279552
+      pardon card game (1)_5: -778416283
+      pardon card game (1)_50: 428123499
+      pardon card game (1)_51: 1552233624
+      pardon card game (1)_52: -755668970
+      pardon card game (1)_53: 906273461
+      pardon card game (1)_54: 2004414734
+      pardon card game (1)_55: -1397717215
+      pardon card game (1)_56: -413019293
+      pardon card game (1)_6: 1595386685
+      pardon card game (1)_7: 145597991
+      pardon card game (1)_8: -2001699644
+      pardon card game (1)_9: 401345065
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

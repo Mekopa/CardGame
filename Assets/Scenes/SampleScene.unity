@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 17399829}
   - component: {fileID: 17399833}
   - component: {fileID: 17399832}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -185,8 +185,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 17399831}
-  front: {fileID: 1270441579, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 1103511950, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &17399831
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -228,7 +228,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1270441579, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 1103511950, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -251,6 +251,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &17399833
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -287,7 +300,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.39, y: 1.94}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -310,7 +323,7 @@ GameObject:
   - component: {fileID: 37430864}
   - component: {fileID: 37430868}
   - component: {fileID: 37430867}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -358,8 +371,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 37430866}
-  front: {fileID: -394505823, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 1262119519, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &37430866
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -401,7 +414,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -394505823, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 1262119519, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -424,6 +437,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &37430868
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -460,7 +486,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.37, y: 1.94}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -494,7 +520,7 @@ Transform:
   m_GameObject: {fileID: 45448360}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.61, y: -0.02, z: 0}
+  m_LocalPosition: {x: -6.14, y: -0.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -566,7 +592,7 @@ GameObject:
   - component: {fileID: 52248589}
   - component: {fileID: 52248593}
   - component: {fileID: 52248592}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -614,8 +640,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 52248591}
-  front: {fileID: 1128532197, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 829996532, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &52248591
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -657,7 +683,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1128532197, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 829996532, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -680,6 +706,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &52248593
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -716,7 +755,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.37, y: 1.94}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -739,7 +778,7 @@ GameObject:
   - component: {fileID: 59009150}
   - component: {fileID: 59009154}
   - component: {fileID: 59009153}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -787,8 +826,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 59009152}
-  front: {fileID: -1881243681, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 727969047, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &59009152
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -830,7 +869,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1881243681, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 727969047, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -853,6 +892,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &59009154
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -889,7 +941,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.36, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -912,7 +964,7 @@ GameObject:
   - component: {fileID: 70879905}
   - component: {fileID: 70879909}
   - component: {fileID: 70879908}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -960,8 +1012,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 70879907}
-  front: {fileID: -1529059390, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 147929538, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &70879907
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1003,7 +1055,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1529059390, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 147929538, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1026,6 +1078,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &70879909
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1062,7 +1127,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.37, y: 1.96}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1085,7 +1150,7 @@ GameObject:
   - component: {fileID: 73804621}
   - component: {fileID: 73804625}
   - component: {fileID: 73804624}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1133,8 +1198,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 73804623}
-  front: {fileID: 936408929, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 1331529361, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &73804623
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1176,7 +1241,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 936408929, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 1331529361, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1199,6 +1264,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &73804625
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1235,7 +1313,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.39, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1258,7 +1336,7 @@ GameObject:
   - component: {fileID: 99379766}
   - component: {fileID: 99379770}
   - component: {fileID: 99379769}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1306,8 +1384,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 99379768}
-  front: {fileID: 936408929, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -778416283, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &99379768
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1349,7 +1427,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 936408929, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -778416283, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1372,6 +1450,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &99379770
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1408,7 +1499,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.37, y: 1.94}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1431,7 +1522,7 @@ GameObject:
   - component: {fileID: 137058798}
   - component: {fileID: 137058802}
   - component: {fileID: 137058801}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1479,8 +1570,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 137058800}
-  front: {fileID: 1670135613, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 1127498906, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &137058800
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1522,7 +1613,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1670135613, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 1127498906, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1545,6 +1636,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &137058802
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1581,7 +1685,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.37, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1604,7 +1708,7 @@ GameObject:
   - component: {fileID: 144262868}
   - component: {fileID: 144262872}
   - component: {fileID: 144262871}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1652,8 +1756,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 144262870}
-  front: {fileID: -342850613, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -1749244971, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &144262870
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1695,7 +1799,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -342850613, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -1749244971, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1718,6 +1822,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &144262872
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1754,7 +1871,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.37, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1763,6 +1880,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2, y: 2}
   m_EdgeRadius: 0
+--- !u!1 &224894869 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3414074767100081180, guid: 10db0bbc1d96e9144ad1d38f349f2710, type: 3}
+  m_PrefabInstance: {fileID: 1632249555824843341}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &237538859
 GameObject:
   m_ObjectHideFlags: 0
@@ -1777,7 +1899,7 @@ GameObject:
   - component: {fileID: 237538861}
   - component: {fileID: 237538865}
   - component: {fileID: 237538864}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1825,8 +1947,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 237538863}
-  front: {fileID: 385852019, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 1547943968, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &237538863
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1868,7 +1990,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 385852019, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 1547943968, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1891,6 +2013,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &237538865
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1927,7 +2062,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.39, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1950,7 +2085,7 @@ GameObject:
   - component: {fileID: 264468364}
   - component: {fileID: 264468368}
   - component: {fileID: 264468367}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1998,8 +2133,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 264468366}
-  front: {fileID: 1670135613, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -270951027, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &264468366
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2041,7 +2176,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1670135613, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -270951027, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2064,6 +2199,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &264468368
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2100,7 +2248,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.38, y: 1.94}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2123,7 +2271,7 @@ GameObject:
   - component: {fileID: 287527084}
   - component: {fileID: 287527088}
   - component: {fileID: 287527087}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2171,8 +2319,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 287527086}
-  front: {fileID: 1270441579, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 1232141584, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &287527086
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2214,7 +2362,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1270441579, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 1232141584, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2237,6 +2385,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &287527088
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2273,7 +2434,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.37, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2296,7 +2457,7 @@ GameObject:
   - component: {fileID: 402788508}
   - component: {fileID: 402788512}
   - component: {fileID: 402788511}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2344,8 +2505,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 402788510}
-  front: {fileID: 1670135613, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -413019293, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &402788510
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2387,7 +2548,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1670135613, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -413019293, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2410,6 +2571,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &402788512
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2446,7 +2620,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.44, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2469,7 +2643,7 @@ GameObject:
   - component: {fileID: 423356934}
   - component: {fileID: 423356938}
   - component: {fileID: 423356937}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2517,8 +2691,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 423356936}
-  front: {fileID: 1832691569, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 2084328976, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &423356936
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2560,7 +2734,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1832691569, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 2084328976, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2583,6 +2757,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &423356938
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2619,7 +2806,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.39, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2642,7 +2829,7 @@ GameObject:
   - component: {fileID: 430769607}
   - component: {fileID: 430769611}
   - component: {fileID: 430769610}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2690,8 +2877,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 430769609}
-  front: {fileID: -394505823, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -1438279552, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &430769609
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2733,7 +2920,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -394505823, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -1438279552, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2756,6 +2943,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &430769611
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2792,7 +2992,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.39, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2815,7 +3015,7 @@ GameObject:
   - component: {fileID: 446406409}
   - component: {fileID: 446406413}
   - component: {fileID: 446406412}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2863,8 +3063,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 446406411}
-  front: {fileID: 165913561, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 1763805503, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &446406411
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2906,7 +3106,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 165913561, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 1763805503, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2929,6 +3129,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &446406413
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2965,7 +3178,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.37, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2992,6 +3205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myCards: []
+  cardSpacing: 1.5
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3078,8 +3292,8 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.07, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 0.24428, y: 0.24428, z: 0.24428}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3098,7 +3312,7 @@ GameObject:
   - component: {fileID: 520827803}
   - component: {fileID: 520827807}
   - component: {fileID: 520827806}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3146,8 +3360,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 520827805}
-  front: {fileID: -1529059390, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 1560373935, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &520827805
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3189,7 +3403,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1529059390, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 1560373935, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3212,6 +3426,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &520827807
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3248,7 +3475,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.37, y: 1.94}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3271,7 +3498,7 @@ GameObject:
   - component: {fileID: 601676393}
   - component: {fileID: 601676397}
   - component: {fileID: 601676396}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3319,8 +3546,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 601676395}
-  front: {fileID: 1832691569, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 548285092, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &601676395
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3362,7 +3589,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1832691569, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 548285092, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3385,6 +3612,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &601676397
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3421,7 +3661,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.38, y: 1.96}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3444,7 +3684,7 @@ GameObject:
   - component: {fileID: 609524135}
   - component: {fileID: 609524139}
   - component: {fileID: 609524138}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3492,8 +3732,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 609524137}
-  front: {fileID: 165913561, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -127760019, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &609524137
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3535,7 +3775,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 165913561, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -127760019, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3558,6 +3798,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &609524139
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3594,7 +3847,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.39, y: 1.94}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3617,7 +3870,7 @@ GameObject:
   - component: {fileID: 615282785}
   - component: {fileID: 615282789}
   - component: {fileID: 615282788}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3665,8 +3918,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 615282787}
-  front: {fileID: -1881243681, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 401345065, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &615282787
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3708,7 +3961,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1881243681, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 401345065, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3731,6 +3984,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &615282789
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3767,7 +4033,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.38, y: 1.94}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3790,7 +4056,7 @@ GameObject:
   - component: {fileID: 618582514}
   - component: {fileID: 618582518}
   - component: {fileID: 618582517}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3838,8 +4104,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 618582516}
-  front: {fileID: 936408929, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -1468440976, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &618582516
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3881,7 +4147,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 936408929, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -1468440976, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3904,6 +4170,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &618582518
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3940,7 +4219,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.37, y: 1.94}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3949,6 +4228,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2, y: 2}
   m_EdgeRadius: 0
+--- !u!1 &675545131 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3414074767100081180, guid: 10db0bbc1d96e9144ad1d38f349f2710, type: 3}
+  m_PrefabInstance: {fileID: 1617592300}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &716971579
 GameObject:
   m_ObjectHideFlags: 0
@@ -3963,7 +4247,7 @@ GameObject:
   - component: {fileID: 716971581}
   - component: {fileID: 716971585}
   - component: {fileID: 716971584}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4011,8 +4295,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 716971583}
-  front: {fileID: 1832691569, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -755668970, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &716971583
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4054,7 +4338,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1832691569, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -755668970, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4077,6 +4361,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &716971585
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4113,7 +4410,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.38, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4136,7 +4433,7 @@ GameObject:
   - component: {fileID: 755718661}
   - component: {fileID: 755718665}
   - component: {fileID: 755718664}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4184,8 +4481,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 755718663}
-  front: {fileID: -342850613, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -1397717215, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &755718663
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4227,7 +4524,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -342850613, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -1397717215, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4250,6 +4547,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &755718665
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4286,7 +4596,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.37, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4309,7 +4619,7 @@ GameObject:
   - component: {fileID: 757024597}
   - component: {fileID: 757024601}
   - component: {fileID: 757024600}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4357,8 +4667,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 757024599}
-  front: {fileID: -1529059390, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 906273461, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &757024599
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4400,7 +4710,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1529059390, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 906273461, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4423,6 +4733,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &757024601
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4459,7 +4782,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.38, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4468,6 +4791,110 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2, y: 2}
   m_EdgeRadius: 0
+--- !u!1 &781244679
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 781244683}
+  - component: {fileID: 781244682}
+  - component: {fileID: 781244681}
+  - component: {fileID: 781244680}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &781244680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781244679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &781244681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781244679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0.5
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &781244682
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781244679}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 1
+  m_Camera: {fileID: 519420031}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &781244683
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781244679}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1822824338}
+  - {fileID: 1115174266}
+  - {fileID: 1375089907}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &806087283
 GameObject:
   m_ObjectHideFlags: 0
@@ -4482,7 +4909,7 @@ GameObject:
   - component: {fileID: 806087285}
   - component: {fileID: 806087289}
   - component: {fileID: 806087288}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4530,8 +4957,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 806087287}
-  front: {fileID: 1128532197, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 1544236994, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &806087287
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4573,7 +5000,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1128532197, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 1544236994, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4596,6 +5023,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &806087289
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4632,7 +5072,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.37, y: 1.94}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4641,6 +5081,129 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2, y: 2}
   m_EdgeRadius: 0
+--- !u!1 &825981405
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 825981407}
+  - component: {fileID: 825981406}
+  m_Layer: 0
+  m_Name: CardPositionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &825981406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825981405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17903f373ba904c4f9ce5b2d6771a3dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player1: {fileID: 469948629}
+  player2: {fileID: 1503639010}
+  closeCard1: {fileID: 224894869}
+  closeCard2: {fileID: 675545131}
+  openCard1: {fileID: 1375089906}
+  openCard2: {fileID: 1115174265}
+--- !u!4 &825981407
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825981405}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -7.5572}
+  m_LocalScale: {x: 0.24428, y: 0.24428, z: 0.24428}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &827115810 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1874905061388285315, guid: 4599f1c43778247449a0c9fecabc1891, type: 3}
+  m_PrefabInstance: {fileID: 998032373}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &854199176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 854199179}
+  - component: {fileID: 854199178}
+  - component: {fileID: 854199177}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &854199177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854199176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &854199178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854199176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &854199179
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854199176}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &993661470
 GameObject:
   m_ObjectHideFlags: 0
@@ -4655,7 +5218,7 @@ GameObject:
   - component: {fileID: 993661472}
   - component: {fileID: 993661476}
   - component: {fileID: 993661475}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4703,8 +5266,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 993661474}
-  front: {fileID: -1881243681, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -733650975, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &993661474
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4746,7 +5309,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1881243681, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -733650975, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4769,6 +5332,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &993661476
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4805,7 +5381,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.37, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4828,7 +5404,7 @@ GameObject:
   - component: {fileID: 994625720}
   - component: {fileID: 994625724}
   - component: {fileID: 994625723}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4876,8 +5452,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 994625722}
-  front: {fileID: 936408929, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 2071918293, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &994625722
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4919,7 +5495,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 936408929, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 2071918293, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4942,6 +5518,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &994625724
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4978,7 +5567,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.35, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4987,6 +5576,92 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2, y: 2}
   m_EdgeRadius: 0
+--- !u!1001 &998032373
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1874905061388285315, guid: 4599f1c43778247449a0c9fecabc1891, type: 3}
+      propertyPath: m_Name
+      value: card
+      objectReference: {fileID: 0}
+    - target: {fileID: 3384006070917337767, guid: 4599f1c43778247449a0c9fecabc1891, type: 3}
+      propertyPath: m_Size.x
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3384006070917337767, guid: 4599f1c43778247449a0c9fecabc1891, type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3384006070917337767, guid: 4599f1c43778247449a0c9fecabc1891, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+    - target: {fileID: 3384006070917337767, guid: 4599f1c43778247449a0c9fecabc1891, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723518590616379623, guid: 4599f1c43778247449a0c9fecabc1891, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723518590616379623, guid: 4599f1c43778247449a0c9fecabc1891, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723518590616379623, guid: 4599f1c43778247449a0c9fecabc1891, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723518590616379623, guid: 4599f1c43778247449a0c9fecabc1891, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723518590616379623, guid: 4599f1c43778247449a0c9fecabc1891, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723518590616379623, guid: 4599f1c43778247449a0c9fecabc1891, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723518590616379623, guid: 4599f1c43778247449a0c9fecabc1891, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723518590616379623, guid: 4599f1c43778247449a0c9fecabc1891, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723518590616379623, guid: 4599f1c43778247449a0c9fecabc1891, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723518590616379623, guid: 4599f1c43778247449a0c9fecabc1891, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723518590616379623, guid: 4599f1c43778247449a0c9fecabc1891, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723518590616379623, guid: 4599f1c43778247449a0c9fecabc1891, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328751187320455353, guid: 4599f1c43778247449a0c9fecabc1891, type: 3}
+      propertyPath: back
+      value: 
+      objectReference: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+    m_RemovedComponents:
+    - {fileID: 3557027649629213617, guid: 4599f1c43778247449a0c9fecabc1891, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4599f1c43778247449a0c9fecabc1891, type: 3}
 --- !u!1 &1020848813
 GameObject:
   m_ObjectHideFlags: 0
@@ -5001,7 +5676,7 @@ GameObject:
   - component: {fileID: 1020848815}
   - component: {fileID: 1020848819}
   - component: {fileID: 1020848818}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5049,8 +5724,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 1020848817}
-  front: {fileID: 165913561, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -790838970, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &1020848817
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5092,7 +5767,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 165913561, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -790838970, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5115,6 +5790,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1020848819
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5151,7 +5839,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.39, y: 1.94}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5174,7 +5862,7 @@ GameObject:
   - component: {fileID: 1074677510}
   - component: {fileID: 1074677514}
   - component: {fileID: 1074677513}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5222,8 +5910,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 1074677512}
-  front: {fileID: 1669663968, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -99330246, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &1074677512
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5265,7 +5953,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1669663968, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -99330246, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5288,6 +5976,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1074677514
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5324,7 +6025,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.37, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5347,7 +6048,7 @@ GameObject:
   - component: {fileID: 1097139316}
   - component: {fileID: 1097139320}
   - component: {fileID: 1097139319}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5395,8 +6096,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 1097139318}
-  front: {fileID: 385852019, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -2001699644, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &1097139318
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5438,7 +6139,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 385852019, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -2001699644, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5461,6 +6162,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1097139320
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5497,7 +6211,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.38, y: 1.94}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5520,7 +6234,7 @@ GameObject:
   - component: {fileID: 1106474911}
   - component: {fileID: 1106474915}
   - component: {fileID: 1106474914}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5568,8 +6282,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 1106474913}
-  front: {fileID: -1588080899, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 466084228, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &1106474913
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5611,7 +6325,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1588080899, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 466084228, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5634,6 +6348,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1106474915
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5670,7 +6397,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.38, y: 1.96}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5679,6 +6406,143 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2, y: 2}
   m_EdgeRadius: 0
+--- !u!1 &1115174265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1115174266}
+  - component: {fileID: 1115174271}
+  - component: {fileID: 1115174270}
+  - component: {fileID: 1115174268}
+  - component: {fileID: 1115174267}
+  m_Layer: 8
+  m_Name: FaceUpCardArea 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1115174266
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115174265}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -5861}
+  m_LocalScale: {x: 0.25344, y: 0.60608, z: 0.25344}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 781244683}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -43, y: -100}
+  m_SizeDelta: {x: 97.74, y: -457.73}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1115174267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115174265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae8a0f2b8f12c7341adc3f1617e1f41d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myCards: []
+  cardSpacing: 810
+  filled: 0
+--- !u!61 &1115174268
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115174265}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 800, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2250, y: 300}
+  m_EdgeRadius: 0
+--- !u!114 &1115174270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115174265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.7686275, g: 0.7686275, b: 0.7686275, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1115174271
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115174265}
+  m_CullTransparentMesh: 1
 --- !u!1 &1234311696
 GameObject:
   m_ObjectHideFlags: 0
@@ -5693,7 +6557,7 @@ GameObject:
   - component: {fileID: 1234311698}
   - component: {fileID: 1234311702}
   - component: {fileID: 1234311701}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5741,8 +6605,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 1234311700}
-  front: {fileID: 1669663968, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -342195569, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &1234311700
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5784,7 +6648,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1669663968, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -342195569, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5807,6 +6671,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1234311702
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5843,7 +6720,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.37, y: 1.94}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5866,7 +6743,7 @@ GameObject:
   - component: {fileID: 1246280595}
   - component: {fileID: 1246280599}
   - component: {fileID: 1246280598}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5914,8 +6791,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 1246280597}
-  front: {fileID: 1832691569, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 653016174, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &1246280597
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5957,7 +6834,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1832691569, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 653016174, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5980,6 +6857,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1246280599
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6016,7 +6906,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.39, y: 1.95}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6039,7 +6929,7 @@ GameObject:
   - component: {fileID: 1266545503}
   - component: {fileID: 1266545507}
   - component: {fileID: 1266545506}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6087,8 +6977,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 1266545505}
-  front: {fileID: -1881243681, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 1614166093, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &1266545505
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6130,7 +7020,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1881243681, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 1614166093, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6153,6 +7043,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1266545507
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6189,7 +7092,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.38, y: 1.94}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6212,7 +7115,7 @@ GameObject:
   - component: {fileID: 1294654792}
   - component: {fileID: 1294654796}
   - component: {fileID: 1294654795}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6260,8 +7163,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 1294654794}
-  front: {fileID: 385852019, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 1595386685, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &1294654794
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6303,7 +7206,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 385852019, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 1595386685, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6326,6 +7229,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1294654796
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6362,7 +7278,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.37, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6385,7 +7301,7 @@ GameObject:
   - component: {fileID: 1315816099}
   - component: {fileID: 1315816103}
   - component: {fileID: 1315816102}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6433,8 +7349,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 1315816101}
-  front: {fileID: -394505823, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -1456224542, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &1315816101
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6476,7 +7392,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -394505823, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -1456224542, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6499,6 +7415,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1315816103
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6535,7 +7464,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.37, y: 1.94}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6558,7 +7487,7 @@ GameObject:
   - component: {fileID: 1341188376}
   - component: {fileID: 1341188380}
   - component: {fileID: 1341188379}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6606,8 +7535,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 1341188378}
-  front: {fileID: 1669663968, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 1552233624, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &1341188378
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6649,7 +7578,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1669663968, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 1552233624, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6672,6 +7601,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1341188380
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6708,7 +7650,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.39, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6731,7 +7673,7 @@ GameObject:
   - component: {fileID: 1351478238}
   - component: {fileID: 1351478242}
   - component: {fileID: 1351478241}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6779,8 +7721,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 1351478240}
-  front: {fileID: 1270441579, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -134664047, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &1351478240
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6822,7 +7764,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1270441579, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -134664047, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6845,6 +7787,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1351478242
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6881,7 +7836,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.37, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6895,12 +7850,149 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9063840877625479152, guid: 10db0bbc1d96e9144ad1d38f349f2710, type: 3}
   m_PrefabInstance: {fileID: 1617592300}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 675545131}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1d9206407ce2ee4409e48245bb8d5872, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1375089906
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1375089907}
+  - component: {fileID: 1375089911}
+  - component: {fileID: 1375089910}
+  - component: {fileID: 1375089908}
+  - component: {fileID: 1375089912}
+  m_Layer: 8
+  m_Name: FaceUpCardArea 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1375089907
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375089906}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -5863.176}
+  m_LocalScale: {x: 0.25344, y: 0.60608, z: 0.25344}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 781244683}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 1.8200684, y: 83.26996}
+  m_SizeDelta: {x: 116.86, y: -463.73}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!61 &1375089908
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375089906}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 800, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2250, y: 300}
+  m_EdgeRadius: 0
+--- !u!114 &1375089910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375089906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1375089911
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375089906}
+  m_CullTransparentMesh: 1
+--- !u!114 &1375089912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375089906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae8a0f2b8f12c7341adc3f1617e1f41d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myCards: []
+  cardSpacing: 810
+  filled: 0
 --- !u!1 &1426061352
 GameObject:
   m_ObjectHideFlags: 0
@@ -6915,7 +8007,7 @@ GameObject:
   - component: {fileID: 1426061354}
   - component: {fileID: 1426061358}
   - component: {fileID: 1426061357}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6963,8 +8055,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 1426061356}
-  front: {fileID: 385852019, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 145597991, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &1426061356
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7006,7 +8098,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 385852019, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 145597991, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7029,6 +8121,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1426061358
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7065,7 +8170,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.38, y: 1.94}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -7092,6 +8197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myCards: []
+  cardSpacing: 1.5
 --- !u!1 &1504084406
 GameObject:
   m_ObjectHideFlags: 0
@@ -7106,7 +8212,7 @@ GameObject:
   - component: {fileID: 1504084408}
   - component: {fileID: 1504084412}
   - component: {fileID: 1504084411}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7154,8 +8260,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 1504084410}
-  front: {fileID: -1588080899, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -1553676983, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &1504084410
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7197,7 +8303,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1588080899, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -1553676983, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7220,6 +8326,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1504084412
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7256,7 +8375,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.38, y: 1.94}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -7279,7 +8398,7 @@ GameObject:
   - component: {fileID: 1507042243}
   - component: {fileID: 1507042247}
   - component: {fileID: 1507042246}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7327,8 +8446,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 1507042245}
-  front: {fileID: 1128532197, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -239278886, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &1507042245
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7370,7 +8489,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1128532197, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -239278886, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7393,6 +8512,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1507042247
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7429,7 +8561,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.39, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -7452,7 +8584,7 @@ GameObject:
   - component: {fileID: 1510380483}
   - component: {fileID: 1510380487}
   - component: {fileID: 1510380486}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7500,8 +8632,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 1510380485}
-  front: {fileID: 1270441579, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -2010830674, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &1510380485
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7543,7 +8675,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1270441579, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -2010830674, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7566,6 +8698,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1510380487
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7602,7 +8747,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.39, y: 1.94}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -7625,7 +8770,7 @@ GameObject:
   - component: {fileID: 1512591882}
   - component: {fileID: 1512591886}
   - component: {fileID: 1512591885}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7673,8 +8818,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 1512591884}
-  front: {fileID: -342850613, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -1120790747, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &1512591884
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7716,7 +8861,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -342850613, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -1120790747, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7739,6 +8884,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1512591886
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7775,7 +8933,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.39, y: 1.96}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -7794,15 +8952,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2362817534347572385, guid: 10db0bbc1d96e9144ad1d38f349f2710, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.51469696
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2362817534347572385, guid: 10db0bbc1d96e9144ad1d38f349f2710, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.9307613
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2362817534347572385, guid: 10db0bbc1d96e9144ad1d38f349f2710, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.054775387
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2362817534347572385, guid: 10db0bbc1d96e9144ad1d38f349f2710, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7855,7 +9013,7 @@ GameObject:
   - component: {fileID: 1639356420}
   - component: {fileID: 1639356424}
   - component: {fileID: 1639356423}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7903,8 +9061,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 1639356422}
-  front: {fileID: -1588080899, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -1409276413, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &1639356422
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7946,7 +9104,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1588080899, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -1409276413, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7969,6 +9127,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1639356424
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8005,7 +9176,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.37, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -8028,7 +9199,7 @@ GameObject:
   - component: {fileID: 1653186736}
   - component: {fileID: 1653186740}
   - component: {fileID: 1653186739}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8076,8 +9247,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 1653186738}
-  front: {fileID: 1128532197, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -1318781087, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &1653186738
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8119,7 +9290,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1128532197, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -1318781087, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8142,6 +9313,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1653186740
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8178,7 +9362,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.37, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -8224,6 +9408,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2462875194578141980, guid: 8f53783a264cc7a419927d4752ce054f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -5.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2462875194578141980, guid: 8f53783a264cc7a419927d4752ce054f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
@@ -8239,7 +9427,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -8261,7 +9450,7 @@ GameObject:
   - component: {fileID: 1738066191}
   - component: {fileID: 1738066195}
   - component: {fileID: 1738066194}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8309,8 +9498,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 1738066193}
-  front: {fileID: -1588080899, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 2004414734, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &1738066193
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8352,7 +9541,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1588080899, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 2004414734, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8375,6 +9564,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1738066195
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8411,7 +9613,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.39, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -8434,7 +9636,7 @@ GameObject:
   - component: {fileID: 1769670922}
   - component: {fileID: 1769670926}
   - component: {fileID: 1769670925}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8482,8 +9684,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 1769670924}
-  front: {fileID: 1669663968, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -1412827635, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &1769670924
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8525,7 +9727,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1669663968, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -1412827635, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8548,6 +9750,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1769670926
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8584,7 +9799,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.37, y: 1.94}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -8593,12 +9808,148 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2, y: 2}
   m_EdgeRadius: 0
+--- !u!1 &1822824337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1822824338}
+  - component: {fileID: 1822824340}
+  - component: {fileID: 1822824339}
+  - component: {fileID: 1822824342}
+  - component: {fileID: 1822824341}
+  m_Layer: 6
+  m_Name: PlayArea
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1822824338
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822824337}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -5861}
+  m_LocalScale: {x: 0.25312, y: 0.60591865, z: 0.25312}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 781244683}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 712, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1822824339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822824337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1822824340
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822824337}
+  m_CullTransparentMesh: 1
+--- !u!61 &1822824341
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822824337}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1500, y: 750}
+  m_EdgeRadius: 0
+--- !u!114 &1822824342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822824337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b005e6488ca2848803c8fc76d99389, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playAreaRectTransform: {fileID: 1822824338}
+  cards: []
 --- !u!114 &1831367137 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9063840877625479152, guid: 10db0bbc1d96e9144ad1d38f349f2710, type: 3}
   m_PrefabInstance: {fileID: 1632249555824843341}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 224894869}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1d9206407ce2ee4409e48245bb8d5872, type: 3}
@@ -8618,7 +9969,7 @@ GameObject:
   - component: {fileID: 1845592390}
   - component: {fileID: 1845592394}
   - component: {fileID: 1845592393}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8666,8 +10017,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 1845592392}
-  front: {fileID: 165913561, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 428123499, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &1845592392
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8709,7 +10060,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 165913561, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 428123499, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8732,6 +10083,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1845592394
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8768,7 +10132,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.38, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -8791,7 +10155,7 @@ GameObject:
   - component: {fileID: 1849831489}
   - component: {fileID: 1849831493}
   - component: {fileID: 1849831492}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8839,8 +10203,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 1849831491}
-  front: {fileID: 1670135613, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -1336577918, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &1849831491
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8882,7 +10246,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1670135613, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -1336577918, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8905,6 +10269,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1849831493
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8941,7 +10318,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.38, y: 1.96}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -8964,7 +10341,7 @@ GameObject:
   - component: {fileID: 1856840311}
   - component: {fileID: 1856840315}
   - component: {fileID: 1856840314}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9012,8 +10389,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 1856840313}
-  front: {fileID: -1529059390, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 1191687724, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &1856840313
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9055,7 +10432,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1529059390, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 1191687724, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9078,6 +10455,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1856840315
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9114,7 +10504,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.37, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -9137,7 +10527,7 @@ GameObject:
   - component: {fileID: 1924336660}
   - component: {fileID: 1924336664}
   - component: {fileID: 1924336663}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9185,8 +10575,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 1924336662}
-  front: {fileID: -342850613, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: 1746722360, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &1924336662
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9228,7 +10618,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -342850613, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: 1746722360, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9251,6 +10641,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &1924336664
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9287,7 +10690,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.39, y: 1.94}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -9310,7 +10713,7 @@ GameObject:
   - component: {fileID: 2125829172}
   - component: {fileID: 2125829176}
   - component: {fileID: 2125829175}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Card 04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9358,8 +10761,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySpriteRenderer: {fileID: 2125829174}
-  front: {fileID: -394505823, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
-  back: {fileID: -1691535406, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  front: {fileID: -1709335190, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
+  back: {fileID: -256936013, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
 --- !u!212 &2125829174
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9401,7 +10804,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -394505823, guid: eb7ab55bf574c3545b27163312a3b39e, type: 3}
+  m_Sprite: {fileID: -1709335190, guid: b60cf07ccfc1c4945a48dbda1cbccfed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9424,6 +10827,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2f5bb5404bc9d48a81828026b08719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
+  playAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  faceUpAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upCards1: {fileID: 1115174267}
+  upCards2: {fileID: 1375089912}
+  downCards1: {fileID: 1356912204}
+  downCards2: {fileID: 1831367137}
+  player1: {fileID: 1503639011}
+  player2: {fileID: 469948630}
 --- !u!61 &2125829176
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9460,7 +10876,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 2}
+    oldSize: {x: 1.37, y: 1.93}
     newSize: {x: 1.2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -9483,6 +10899,7 @@ GameObject:
   - component: {fileID: 2147365844}
   - component: {fileID: 2147365843}
   - component: {fileID: 2147365848}
+  - component: {fileID: 2147365849}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -9586,6 +11003,7 @@ MonoBehaviour:
   - {fileID: 73804621}
   - {fileID: 237538861}
   - {fileID: 716971581}
+  cardCover: {fileID: 827115810}
 --- !u!114 &2147365846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9683,6 +11101,22 @@ MonoBehaviour:
   FaceDownCards:
   - {fileID: 1831367137}
   - {fileID: 1356912204}
+--- !u!114 &2147365849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2147365842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d594b339fd588094e953f63d63d8caf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardManager: {fileID: 2147365845}
+  FaceUpCards:
+  - {fileID: 1375089912}
+  - {fileID: 1115174267}
 --- !u!1001 &1632249555824843341
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9693,15 +11127,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2362817534347572385, guid: 10db0bbc1d96e9144ad1d38f349f2710, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.01
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2362817534347572385, guid: 10db0bbc1d96e9144ad1d38f349f2710, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.9307613
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2362817534347572385, guid: 10db0bbc1d96e9144ad1d38f349f2710, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.054775387
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2362817534347572385, guid: 10db0bbc1d96e9144ad1d38f349f2710, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9734,6 +11168,10 @@ PrefabInstance:
     - target: {fileID: 3414074767100081180, guid: 10db0bbc1d96e9144ad1d38f349f2710, type: 3}
       propertyPath: m_Name
       value: FaceDownCards1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9063840877625479152, guid: 10db0bbc1d96e9144ad1d38f349f2710, type: 3}
+      propertyPath: cardSpacing
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9777,6 +11215,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2462875194578141980, guid: 8f53783a264cc7a419927d4752ce054f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -4.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 2462875194578141980, guid: 8f53783a264cc7a419927d4752ce054f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
@@ -9792,7 +11234,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8897983651847144775, guid: 8f53783a264cc7a419927d4752ce054f, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -9805,9 +11252,13 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
+  - {fileID: 825981407}
+  - {fileID: 998032373}
   - {fileID: 2147365847}
   - {fileID: 45448361}
-  - {fileID: 6805960504270490363}
-  - {fileID: 1673093910}
   - {fileID: 1632249555824843341}
   - {fileID: 1617592300}
+  - {fileID: 6805960504270490363}
+  - {fileID: 1673093910}
+  - {fileID: 781244683}
+  - {fileID: 854199179}
